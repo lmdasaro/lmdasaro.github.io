@@ -2,23 +2,50 @@ body {
 	background: #58FAF4;
 }
 
+h3 {
+	font-size: 1.75em;
+}
+
 table {
 	border: 3px dotted black;
 	padding: 10px;
+}
+
+a:link {
+	color: blue;
 }
 
 a:visited {
 color: purple;
 }
 
+td {
+	text-align: center;
+}
+
+th {
+	font-size: 1.25em;
+}
+
 #brethren {
 	margin: 20px;
 }
 
+.alt {
+	color: blue;
+}
 
 .quirks {
     margin: auto;
     width: 90%;
+}
+
+.trick {
+	font-weight: bold;
+}
+
+#almost {
+	font-style: italic;
 }
 
 #hunt {
@@ -29,5 +56,10 @@ color: purple;
 	font-size: 1.5em;
 	color: white;
 	text-shadow: black 4px 4px;
+}
 
+@media screen and (min-width: 700px) {
+  body {
+    background-color: hotpink;
+  }
 }
