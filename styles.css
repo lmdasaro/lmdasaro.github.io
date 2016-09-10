@@ -1,3 +1,33 @@
 body {
-	background: blue
+	background: #58FAF4;
+}
+
+table {
+	border: 3px dotted black;
+	padding: 10px;
+}
+
+a:visited {
+color: purple;
+}
+
+#brethren {
+	margin: 20px;
+}
+
+
+.quirks {
+    margin: auto;
+    width: 90%;
+}
+
+#hunt {
+	background-image: url(https://c5.staticflickr.com/9/8411/28835459444_a7188fa55d_b.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-family: impact;
+	font-size: 1.5em;
+	color: white;
+	text-shadow: black 4px 4px;
+
 }
