@@ -65,7 +65,7 @@ th {
 }
 @media screen and (max-width: 1000px) {
   #tdl {
-	height: auto;
-	max-width: 600px;
-	width: 100%;  }
+	height: auto !important;
+	max-width: 800px !important;
+	width: 100% !important;  }
 }
