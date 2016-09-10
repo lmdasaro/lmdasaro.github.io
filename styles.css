@@ -63,3 +63,9 @@ th {
     background-color: hotpink;
   }
 }
+@media screen and (max-width: 1000px) {
+  #tdl {
+	height: auto;
+	max-width: 600px;
+	width: 100%;  }
+}
